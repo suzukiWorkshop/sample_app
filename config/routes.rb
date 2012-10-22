@@ -1,6 +1,7 @@
 SampleApp::Application.routes.draw do
   get "pages_controller/index"
   root :to => 'pages_controller#index'
+  get "contact", to: "pages_controller#contact", as: :contact
 
 
   # The priority is based upon order of creation:
