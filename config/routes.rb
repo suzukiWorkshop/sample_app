@@ -1,4 +1,8 @@
 SampleApp::Application.routes.draw do
+  get "pages_controller/index"
+  root :to => 'pages_controller#index'
+
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
